@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student List Hogwarts</title>
+    <link rel="stylesheet" href="studentlist.css" type="text/css" />
+   <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+  <meta charset="UTF-8">
+  </head>
+  <body>
+    <header>
+            
+      <h1>Hogwarts students from 1991</h1>
+    </header>
+    <main>
+      <div id="wrapmenu">
+        <a id="btnAll" href="index.html">All</a>
+        <a id="firstname" href="#">Name</a>
+        <a id="lastname" href="#">Surname</a>
+        <a id="house" href="#">House</a>
+  <a id="Gryffindor" class="filter" href="#">Gryffindor</a>
+  <a id="Hufflepuff" class="filter" href="#">Hufflepuff</a>
+  <a id="Ravenclaw" class="filter" href="#">Ravenclaw</a>
+  <a id="Slytherin" class="filter" href="#" >Slytherin</a>
+      </div>
+      <section id="overWrap">
+
+        <ul id="wrapperMain"></ul>
+
+        <template id="studentFirstNTemplate">
+          <li id="">
+            
+            <div class="student-box">
+
+
+              <h2 class="firstN"></h2>
+            
+            
+              <h2 class="surname1"> </h2>
+            
+            
+              <h2 class="house"></h2>
+
+
+            </div>
+
+
+           <span> <button class="expled-button">Expell student</button></span>
+           <span> <button class="details-button">Show more</button></span>
+          </li>
+        </template>
+
+        <ul id="counter">
+         <p> Expelled students counter : <div id="insertcount"></div> </p>
+        </ul>
+      </section>
+    </main>
+    <aside id="#" class="modal hide">
+      <div class="modal1" >
+        <img id="imgs" src="" alt="portrait" />
+        <p class="name">random</p>
+        <p class="surname">surname</p>
+        <p class="bloodt">blood type</p>
+        <h2 class="house"></h2>
+      </div>
+    </aside>
+
+    <aside class="modal3">
+
+        <img src="" alt="" class="imgfile">
+        
+        <botton class="closeButton"></botton>
+  
+      </aside>
+  
+    <script src="studentlist.js"></script>
+  </body>
+</html>
